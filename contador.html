@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Coming+Soon&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Coming+Soon&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>Contador de Datas Regressivo</title>
+</head>
+
+<body>
+    <header>
+        <div class="botao-logo">
+            <button id="botao-logo-contador" onclick="buttonCont()">Contador</button>
+        </div>
+        <div class="reiniciar">
+            <button id="reiniciar-contagem" onclick="buttonCont()">Reiniciar
+        </div>
+    </header>
+
+    <div class="container-contador">
+        <h1 id="faltam">Faltam</h1>
+
+        <div class="contador">
+            <h1 id="result">O dia escolhido é hoje!</h1>
+            <div class="info-contador">
+                <p id="dia">0</p>
+                <p>Dias</p>
+            </div>
+            <div class="info-contador">
+                <p id="hora">00</p>
+                <p>Horas</p>
+
+            </div>
+            <div class="info-contador">
+                <p id="minuto">00</p>
+                <p>Minutos</p>
+            </div>
+            <div class="info-contador">
+                <p id="segundo">00</p>
+                <p>Segundos</p>
+            </div>
+
+        </div>
+    </div>
+    <script src="cont.js"></script>
+</body>
+
+</html>
