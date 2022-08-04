@@ -1,0 +1,197 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Coming Soon', cursive;}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    background: #205bd8;
+}
+
+button {
+    padding: 10px;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: 0.4s linear;
+
+    font-size: 2.5rem;
+    background-color: #f7f312;
+    font-weight: bold;
+}
+
+button:hover {
+    background: #2f83e2;
+    letter-spacing: 2px;
+
+}
+
+p {
+    color: white;
+}
+
+.container {
+    width: 350px;
+    margin: 150px auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.container h1 {
+    margin-bottom: 15px;
+
+    color: #05101de3;
+    font-size: 5rem;
+}
+
+.container p {
+    margin-bottom: 10px;
+
+    color: rgb(168, 166, 166);
+    font-size: 2.5rem;
+}
+
+.container input {
+    background-color: rgb(58, 57, 57);
+    border: none;
+    border-radius: 20px;
+    width: 80%;
+    height: 7vh;
+    max-height: 50px;
+    margin-bottom: 20px;
+    outline: none;
+    cursor: pointer;
+
+    color: rgb(168, 166, 166);
+    font-size: 2rem;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-indent: 5px;
+    text-align: center
+}
+
+.container button {
+    padding: 10px;
+    width: 80%;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: 0.4s linear;
+
+    font-size: 2.5rem;
+    background-color: #f7f312;
+    font-weight: bold;
+
+}
+
+.container button:hover {
+    background: #2f83e2;
+    letter-spacing: 2px;
+}
+
+.container form {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+@media (min-width: 1000px) {
+    .container {
+        width: 60%;
+    }
+
+    .container input {
+        width: 300px
+    }
+
+    .container button {
+        width: 300px;
+    }
+}
+
+/* ------ Contador ------- */
+header {
+    display: flex;
+    justify-content: space-between;
+    padding: 15px;
+    align-items: center;
+}
+
+header button#botao-logo-contador {
+    background: none;
+    font-size: 3.5rem;
+    color: #f7f312;
+}
+
+.container-contador {
+    width: 80%;
+    margin: 50px auto;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.container-contador .contador {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container-contador h1 {
+    color: rgb(80, 79, 79);
+    font-size: 6rem;
+    text-align: center;
+}
+
+.info-contador {
+    padding: 20px;
+    text-align: center;
+}
+
+.info-contador p:first-child {
+    font-size: 9rem;
+    font-weight: 700;
+}
+
+.info-contador p:nth-child(2) {
+    font-size: 3rem;
+    color: #f7f312;
+    font-weight: 400;
+    margin-top: -15px;
+}
+
+#result {
+    display: none;
+}
+
+.delete {
+    display: none;
+}
+
+@media (max-width: 591px) {
+    .container-contador .contador {
+        flex-direction: column;
+    }
+
+    .info-contador {
+        padding: 5px;
+    }
+
+    .info-contador p:first-child {
+        font-size: 7rem;
+    }
+}
+
+@media (min-width: 1400px) {
+    header {
+        justify-content: space-evenly;
+    }
+}
