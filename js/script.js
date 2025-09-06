@@ -15,6 +15,6 @@ function initCont(){
         dataBase.userMonth = month;
         dataBase.userYear = year;
         localStorage.setItem('dataBase', JSON.stringify(dataBase));
-        location = 'contador.html';
+        location = 'pages/contador.html';
     }
 }
