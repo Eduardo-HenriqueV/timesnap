@@ -1,4 +1,4 @@
-# ⏳ Contador de Datas Regressivo
+# ⏳ TimeSnap - Contador de Datas Regressivo
 
 Ferramenta simples e funcional que permite ao usuário inserir uma data futura e visualizar uma contagem regressiva até ela.  
 Desenvolvido com **HTML, CSS e JavaScript**, ideal para eventos, lançamentos ou metas pessoais.
