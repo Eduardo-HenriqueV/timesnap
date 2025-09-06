@@ -92,7 +92,7 @@ function buttonCont(){
     cont.second = 0;
     
     clearInterval(interval);
-    location = '../index.html';
+    location = 'index.html';
 }
 function finish(){
     let campos = document.querySelectorAll(".info-contador");
